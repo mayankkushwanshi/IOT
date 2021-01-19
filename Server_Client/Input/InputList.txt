@@ -1,0 +1,20 @@
+Sensor Vibration_Sensor OFF
+Motor BLDC_MOTOR Normal 3500 rpm
+Operation Plasma_Operation Normal
+Sensor HP_Sensor ON
+Sensor LP_Sensor ON
+Operation Plasma_Operation Warning
+Alarm Alarm1 OFF
+Alarm Alarm2 Activated
+Sensor Temperature_Sensor ON
+Motor PUMP_1 Normal 3800 rpm
+Motor PUMP_2 Normal 3600 rpm
+Alarm Alarm3 Activated
+Motor PUMP_3 Warning 6000 rpm
+Operation Plasma_Operation Failure
+Motor BLDC_MOTOR Normal 3700 rpm
+Motor PUMP_1 Normal 4000 rpm
+Alarm Alarm2 OFF
+Sensor HP_Sensor OFF
+Operation Plasma_Operation Normal
+Sensor Vibration_Sensor ON

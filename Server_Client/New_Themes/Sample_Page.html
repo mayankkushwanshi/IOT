@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<!-----------------------------------------------LOGOS------------------------------------------------------------------------------------->	
+	
+<head>
+	<script src="UtilityScript.js"> </script>
+
+<table style="width:100%" border-collapse="collapse">
+  <tr>
+    <th>
+	  	<img src="TerumoBCTLogo.jpg" alt="TerumoBCTLogo" width="550px" height="100">
+	</th>
+    <th>
+	  	<img src="cg_logo.jpg" alt="cg_logo" width="550px" height="100">
+	</th>
+  </tr>
+</table>
+
+
+<!----------------------------------------------HEADING-------------------------------------------------------------------------------------->	
+
+<h1 style="color:#000080;">Orion Operation Status Report</h1>
+
+<!----------------------------------------------BOX&TABLES-------------------------------------------------------------------------------------->	
+</head>	
+<body bgcolor="#90EE90" onload="setTimeout(readTextFile, 1)">
+<style> 
+.div1 {
+    width: 	1325px;
+    height: 	575px;
+    border: 	2px solid green;
+    padding:	5px;
+}
+table.ex1 {
+    
+    border-spacing: 150px 2px;	
+}
+
+</style>
+
+
+<table>
+<tr>
+				<td><p style="solid blue">Orion Operation Status: <input type="text" id="Plasma_Operation_Status"> </td>
+					<div style="text-align:center"> 
+					<td><button id="Pause_ID" type="button" name="Pause_ID" onclick="togglePause()" >Pause</button></td>
+					</div>
+					<td><p style="solid blue"> Counter: <input style="solid red" type="text" maxlength="20" size="10" id="Counter_Value"></p></td>
+</p> 
+</tr>
+</table>
+				<table class="ex1" border="1">
+											
+ 					 <tr>
+    					<th><p style="color:Blue" >Peripheral</p></th>
+   					<th><p style="color:Blue">Speed/Status</p></th>
+   					<th><p style="color:Blue">Unit</p></th>					
+  					</tr>
+
+					<tr>
+    					<td>Vibration Sensor</td>
+   						<td><input type="text" id="Vibration_Sensor_Status"></td>
+   						<td><input type="text" id="VS_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>HP Sensor</td>
+   						<td><input type="text" id="HP_Sensor_Status"></td>
+   						<td><input type="text" id="HPStatus_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>LP Sensor</td>
+   						<td><input type="text" id="LP_Sensor_Status"></td>
+   						<td><input type="text" id="LPStatus_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>Temperature Sensor </td>
+   						<td><input type="text" id="Temperature_Sensor_Status"></td>
+   						<td><input type="text" id="Temperature_Sensor_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>Alarm-1</td>
+   						<td><input type="text" id="Alarm1_Status"></td>
+   						<td><input type="text" id="A1Status_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>Alarm-2</td>
+   						<td><input type="text" id="Alarm2_Status"></td>
+   						<td><input type="text" id="A2Status_Unit"></td>
+
+  					</tr>
+					<tr>
+    					<td>Alarm-3</td>
+   						<td><input type="text" id="Alarm3_Status"></td>
+   						<td><input type="text" id="A3Status_Unit"></td>
+ 					</tr>
+					<tr>
+    					<td>PUMP-1</td>
+   						<td><input type="text" id="PUMP_1_SpeedValue"></td>
+   						<td><input type="text" id="PUMP_1_SpeedUnit"></td>
+
+  					</tr>
+					<tr>
+    					<td>PUMP-2</td>
+   						<td><input type="text" id="PUMP_2_SpeedValue"></td>
+   						<td><input type="text" id="PUMP_2_SpeedUnit"></td>
+
+  					</tr>
+					<tr>
+    					<td>PUMP-3</td>
+   						<td><input type="text" id="PUMP_3_SpeedValue"></td>
+   						<td><input type="text" id="PUMP_3_SpeedUnit"></td>
+ 					</tr>
+					<tr>
+    					<td>BLDC Motor</td>
+   						<td><input type="text" id="BLDC_MOTOR_SpeedValue"></td>
+   						<td><input type="text" id="BLDC_MOTOR_SpeedUnit"></td>
+
+  					</tr>					
+
+				</table>	
+</body>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------->
+	
+</html>
